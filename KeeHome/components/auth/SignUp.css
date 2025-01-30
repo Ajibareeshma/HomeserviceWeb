@@ -1,0 +1,74 @@
+/* components/Signup.css */
+@keyframes subtleMove {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(5px); /* Slight movement to the right */
+    }
+    100% {
+      transform: translateX(0); /* Return to the original position */
+    }
+  }
+  
+  .signup-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp2mzAnGfRYBL9xhJ9WaxERtwGO6SuzvvbnQ&s"); /* Background image */
+    background-size: cover;  /* Ensure the background image covers the entire container */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat;  /* Don't repeat the image */
+    color: white; /* Optional for slight elevation */
+    animation: subtleMove 2s infinite ease-in-out;
+    }
+    
+    .signup-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      animation: subtleMove 2.5s infinite ease-in-out;
+    }
+    
+    .signup-container input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #241212;
+      border-radius: 5px;
+      animation: subtleMove 3s infinite ease-in-out;
+      
+    }
+    
+    .signup-container .signup-btn {
+      width: 100%;
+      padding: 10px;
+      background-color: #8f1e6b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .signup-container .signup-btn:hover {
+      background-color: #df1c7d;
+    }
+    
+    .signup-container .login-link {
+      text-decoration: none;
+      color: #007BFF;
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+    }
+    
+    .signup-container .back-to-home {
+      text-decoration: none;
+      color: #007BFF;
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+    }
+    
